@@ -11,9 +11,10 @@ Navigate to src/main/frontend and run  npm install and ng build then ,start usin
 http://localhost:8080/swagger-ui.html
 ## FrontEnd
 http://localhost:4200
-## Implementation assumptions
+## Implementation assumptions and notes
 For consistency the stock name must be unique , i.e you cannot create two stocks with same name.
 It is ok during POST of a stock to pass the lastUpdate as well.
+Note that front end is submodule inside this git repository.
 I noticed that it might make sense to sort the list of stocks by lastUpdate but i just added it as commented code since is not required.
 ## Built with
 Spring boot 2.1.3,Maven,Angular 7,REST,Maven code formatting.
