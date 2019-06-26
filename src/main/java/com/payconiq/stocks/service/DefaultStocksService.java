@@ -42,7 +42,8 @@ public class DefaultStocksService implements StocksService {
     log.info("Returning all stocks");
     return stocksRepository.findAll();
     /**
-     * One could also sort it by last update as below  or implmenting comparable with equals and hashcode ;)
+     * One could also sort it by last update as below or implmenting comparable with equals and
+     * hashcode ;)
      */
     // .stream().
     // sorted(Comparator.comparing(Stock::getLastUpdate).reversed()).collect(Collectors.toList());
@@ -55,8 +56,10 @@ public class DefaultStocksService implements StocksService {
    */
   @Override
   public void createStock(Stock stock) throws StockWithSameNameAlreadyExistException {
-    if(stocksRepository.findAll().stream().anyMatch(stk->stk.getName().equals(stock.getName()))){
-      throw new StockWithSameNameAlreadyExistException("Stock with same name exists name = "+stock.getName());
+    if (stocksRepository.findAll().stream()
+        .anyMatch(stk -> stk.getName().equals(stock.getName()))) {
+      throw new StockWithSameNameAlreadyExistException(
+          "Stock with same name exists name = " + stock.getName());
     }
     log.info("Creating stock with ID {}", stock.getId());
     stocksRepository.save(stock);

@@ -1,7 +1,6 @@
 package com.payconiq.stocks.repository;
 
 import com.payconiq.stocks.model.Stock;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

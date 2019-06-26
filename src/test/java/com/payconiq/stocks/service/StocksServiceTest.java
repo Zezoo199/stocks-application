@@ -72,7 +72,8 @@ public class StocksServiceTest {
   }
 
   @Test
-  public void whenCreateStock_thenRepositoryIsCalled() throws StockWithSameNameAlreadyExistException {
+  public void whenCreateStock_thenRepositoryIsCalled()
+      throws StockWithSameNameAlreadyExistException {
     // given
     Stock givenStock = givenStock(3, "Payconiq", "EUR 15.00");
     // when
@@ -81,15 +82,17 @@ public class StocksServiceTest {
     // then
     verify(stocksRepository, times(1)).save(givenStock);
   }
+
   @Test
-  public void whenCreateStockNameExists_thenRepoIsNotCalled() throws StockWithSameNameAlreadyExistException{
-    //given
+  public void whenCreateStockNameExists_thenRepoIsNotCalled()
+      throws StockWithSameNameAlreadyExistException {
+    // given
     when(stocksRepository.findAll())
-            .thenReturn(
-                    Arrays.asList(
-                            givenStock(1, "Apple", "EUR 10.00"), givenStock(1, "Payconiq", "EUR 15.00")));
+        .thenReturn(
+            Arrays.asList(
+                givenStock(1, "Apple", "EUR 10.00"), givenStock(1, "Payconiq", "EUR 15.00")));
     Stock givenStock = givenStock(3, "Payconiq", "EUR 15.00");
-    //expect
+    // expect
     expectedException.expect(StockWithSameNameAlreadyExistException.class);
     expectedException.expectMessage("Stock with same name exists name = Payconiq");
     // when
@@ -97,7 +100,6 @@ public class StocksServiceTest {
 
     // then
     verify(stocksRepository, times(0)).save(givenStock);
-
   }
 
   @Test

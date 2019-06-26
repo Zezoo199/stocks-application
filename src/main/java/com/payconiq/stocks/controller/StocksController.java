@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class StocksController {
   private final StocksService stocksService;
+
   @Autowired
   public StocksController(StocksService stocksService) {
     this.stocksService = stocksService;

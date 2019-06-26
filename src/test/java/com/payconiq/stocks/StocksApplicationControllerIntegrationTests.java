@@ -50,7 +50,7 @@ public class StocksApplicationControllerIntegrationTests {
         .andExpect(status().isOk())
         .andDo(MockMvcResultHandlers.print())
         .andExpect(jsonPath("$[0].name", is("Apple")))
-        .andExpect(jsonPath("$[1].name", is("Payconiq")));
+        .andExpect(jsonPath("$[1].name", is("Facebook")));
   }
 
   @Test
@@ -59,7 +59,7 @@ public class StocksApplicationControllerIntegrationTests {
         .perform(get("/api/stocks/2"))
         .andExpect(status().isOk())
         .andDo(MockMvcResultHandlers.print())
-        .andExpect(jsonPath("$.name", is("Payconiq")));
+        .andExpect(jsonPath("$.name", is("Facebook")));
   }
 
   @Test
@@ -99,27 +99,29 @@ public class StocksApplicationControllerIntegrationTests {
         .andExpect(jsonPath("$.name", is("MICROSOFT")))
         .andExpect(jsonPath("$.lastUpdate", is("2019-06-24T19:09:42.913")));
   }
+
   @Test
   public void postStockAlreadyExistNameIT() throws Exception {
     String GIVEN_JSON_STRING =
-            "{"
-                    + "  \"currentPrice\": {"
-                    + "      \"amount\": 88,"
-                    + "      \"currency\": \"EUR\""
-                    + "    },"
-                    + "  \"id\": 6,"
-                    + "  \"lastUpdate\": \"2019-06-24T19:09:42.913\","
-                    + "  \"name\": \"Apple\""
-                    + "}";
+        "{"
+            + "  \"currentPrice\": {"
+            + "      \"amount\": 88,"
+            + "      \"currency\": \"EUR\""
+            + "    },"
+            + "  \"id\": 6,"
+            + "  \"lastUpdate\": \"2019-06-24T19:09:42.913\","
+            + "  \"name\": \"Apple\""
+            + "}";
     // when
     mockMvc
-            .perform(
-                    post("/api/stocks")
-                            .contentType(MediaType.APPLICATION_JSON_UTF8)
-                            .content(GIVEN_JSON_STRING))
-            .andDo(MockMvcResultHandlers.print())
-            .andExpect(status().isBadRequest());
+        .perform(
+            post("/api/stocks")
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
+                .content(GIVEN_JSON_STRING))
+        .andDo(MockMvcResultHandlers.print())
+        .andExpect(status().isBadRequest());
   }
+
   @Test
   public void updateStockHappyPathIT() throws Exception {
     String newPriceJsonRequest =
@@ -138,7 +140,7 @@ public class StocksApplicationControllerIntegrationTests {
                     .content(newPriceJsonRequest))
             .andExpect(status().isOk())
             .andDo(MockMvcResultHandlers.print())
-            .andExpect(jsonPath("$.name", is("Payconiq")))
+            .andExpect(jsonPath("$.name", is("Facebook")))
             .andExpect(jsonPath("$.currentPrice.amount", is(99.0)))
             .andExpect(jsonPath("$.currentPrice.currency", is("EUR")))
             .andReturn();

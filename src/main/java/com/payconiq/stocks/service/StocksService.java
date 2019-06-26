@@ -15,6 +15,7 @@ public interface StocksService {
   List<Stock> getAllStocks();
   /**
    * Method to create stock.
+   *
    * @throws StockWithSameNameAlreadyExistException if stock with same name exists
    * @param stock creatable stock.
    */
