@@ -1,0 +1,9 @@
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/StocksApplication.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/service/StocksService.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/model/Stock.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/repository/StocksRepository.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/controller/StocksController.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/service/DefaultStocksService.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/exception/StockNotFoundException.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/repository/StocksRepositoryImpl.java
+/Users/Zezo/Downloads/stocks/src/main/java/com/payconiq/stocks/SwaggerConfig.java

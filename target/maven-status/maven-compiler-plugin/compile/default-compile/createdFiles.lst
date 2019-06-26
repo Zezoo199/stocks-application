@@ -1,0 +1,9 @@
+com/payconiq/stocks/model/Stock.class
+com/payconiq/stocks/repository/StocksRepository.class
+com/payconiq/stocks/controller/StocksController.class
+com/payconiq/stocks/SwaggerConfig.class
+com/payconiq/stocks/repository/StocksRepositoryImpl.class
+com/payconiq/stocks/exception/StockNotFoundException.class
+com/payconiq/stocks/service/StocksService.class
+com/payconiq/stocks/service/DefaultStocksService.class
+com/payconiq/stocks/StocksApplication.class
