@@ -2,34 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27926c38-eb41-4f7d-b419-d5760d90e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/controller/StocksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/controller/StocksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/exception/StockWithSameNameAlreadyExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/exception/StockWithSameNameAlreadyExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/repository/StocksRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/repository/StocksRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/service/DefaultStocksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/service/DefaultStocksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/service/StocksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/service/StocksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/payconiq/stocks/service/StocksServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/payconiq/stocks/service/StocksServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/controller/StocksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/controller/StocksController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/exception/StockWithSameNameAlreadyExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/exception/StockWithSameNameAlreadyExistException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/model/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/model/Stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/DefaultStocksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/DefaultStocksService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/StocksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/StocksService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.StocksApplicationControllerIntegrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.StocksApplicationControllerIntegrationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.repository.StocksRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.repository.StocksRepositoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.service.StocksServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.service.StocksServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.StocksApplicationControllerIntegrationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.StocksApplicationControllerIntegrationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.repository.StocksRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.repository.StocksRepositoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.service.StocksServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.service.StocksServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/service/StocksServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/service/StocksServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/StocksApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/controller/StocksController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/exception/StockNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/exception/StockWithSameNameAlreadyExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/model/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/repository/StocksRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/DefaultStocksService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/payconiq/stocks/service/StocksService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stocks-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.StocksApplicationControllerIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.repository.StocksRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.payconiq.stocks.service.StocksServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.StocksApplicationControllerIntegrationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.repository.StocksRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.payconiq.stocks.service.StocksServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/TestApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/repository/StocksRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/payconiq/stocks/service/StocksServiceTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +126,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-            </state>
+            <state relative-caret-position="-260" />
           </provider>
         </entry>
       </file>
@@ -189,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/payconiq/stocks/service/DefaultStocksService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/payconiq/stocks/StocksApplicationControllerIntegrationTests.java" />
         <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -426,9 +425,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2609047" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2609047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -441,7 +439,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3291536" />
@@ -729,11 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
+        <state relative-caret-position="-260" />
       </provider>
     </entry>
   </component>
