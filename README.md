@@ -6,7 +6,7 @@ mvn clean install
 ### Start the backend
 Start as Spring boot web application  main=StocksApplication.java
 ### Start The Angular  Frontend
-Navigate to src/main/frontend and run  npm install and ng build then ,start using npm start and go to localhost:4200, you can also check another readme inside frontend,note the proxy-conf file redirect to the backend.
+Navigate to src/main/frontend or stocks-frontend and run  npm install and ng build then ,start using npm start and go to localhost:4200, you can also check another readme inside frontend,note the proxy-conf file redirect to the backend.
 ## Swagger
 http://localhost:8080/swagger-ui.html
 ## FrontEnd
