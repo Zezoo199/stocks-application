@@ -30,7 +30,6 @@ import org.zalando.jackson.datatype.money.MoneyModule;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@Import(TestApplicationContext.class)
 public class StocksApplicationControllerIntegrationTests {
   private ObjectMapper objectMapper = new ObjectMapper();
   @Autowired protected WebApplicationContext webApplicationContext;
